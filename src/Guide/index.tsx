@@ -11,7 +11,11 @@ import i18n from '../constant/lang';
 import Mask from '../Mask';
 import Modal from '../Modal';
 import { IGuide } from '../typings/guide';
-import { CUSTOM_ELEMENT_CLASS } from '../constant/className'
+import { CUSTOM_ELEMENT_CLASS } from '../constant/className';
+import smoothscroll from 'smoothscroll-polyfill';
+
+// kick off the polyfill!
+smoothscroll.polyfill();
 
 const Guide: React.FC<IGuide> = (props) => {
   const {
@@ -156,7 +160,7 @@ const Guide: React.FC<IGuide> = (props) => {
   useEffect(() => {
     if (mask && realDocument) {
       const curOverflow = realDocument.style.overflow;
-      setInitOverflowVal(curOverflow || 'scroll');
+      setInitOverflowVal(curOverflow || 'visible');
     }
   }, [mask, realDocument]);
 

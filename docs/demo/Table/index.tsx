@@ -2,7 +2,7 @@
  * iframe: true // 设置为数值可控制 iframe 高度
  */
 import React from 'react';
-import Guide from 'byte-guide';
+import Guide from '@xforce/guide';
 import Tag from '../components/Tag';
 import './index.css';
 

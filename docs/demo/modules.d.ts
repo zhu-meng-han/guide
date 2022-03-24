@@ -1,4 +1,4 @@
-declare module 'byte-guide' {
+declare module '@xforce/guide' {
   export const Guide;
   export const IStep;
   export default Guide;

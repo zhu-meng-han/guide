@@ -1,6 +1,6 @@
 {
-  "name": "byte-guide",
-  "version": "1.0.7",
+  "name": "@xforce/guide",
+  "version": "1.0.1",
   "description": "New feature guide",
   "keywords": [
     "guide",
@@ -45,10 +45,15 @@
     "react": ">=16.12.0",
     "react-dom": ">=16.12.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "regenerator-runtime": "^0.13.9",
+    "smoothscroll-polyfill": "^0.4.4"
+  },
   "devDependencies": {
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.12.7",
+    "@types/smoothscroll-polyfill": "^0.3.1",
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "@typescript-eslint/parser": "^4.14.1",
     "@umijs/test": "^3.0.5",

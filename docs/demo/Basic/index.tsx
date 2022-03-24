@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Guide from 'byte-guide';
+import Guide from '@xforce/guide';
 import { Button, Grid, Card as CardComponent } from '../components';
 import { ITEMS, STEPS } from './const';
 import './index.css';

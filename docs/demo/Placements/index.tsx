@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Guide from 'byte-guide';
+import Guide from '@xforce/guide';
 import Button from '../components/Button';
 import { STEPS } from '../steps';
 import './index.less';
